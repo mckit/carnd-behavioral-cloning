@@ -16,12 +16,12 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/placeholder.png "Model Visualization"
+[image1]: ./examples/architecture.jpg "Model Visualization"
 [image2]: ./examples/placeholder.png "Grayscaling"
-[image3]: ./examples/placeholder_small.png "Recovery Image"
-[image4]: ./examples/placeholder_small.png "Recovery Image"
-[image5]: ./examples/placeholder_small.png "Recovery Image"
-[image6]: ./examples/placeholder_small.png "Normal Image"
+[image3]: ./examples/center_recovery.jpg "Center Recovery Image"
+[image4]: ./examples/left_recovery.jpg "Left Recovery Image"
+[image5]: ./examples/right_recovery.jpg "Right Recovery Image"
+[image6]: ./examples/center_lane_driving.jpg "Normal Image"
 [image7]: ./examples/placeholder_small.png "Flipped Image"
 
 ## Rubric Points
@@ -84,22 +84,22 @@ It took several attempts but at the end of the process, the vehicle was able to 
 
 Here is a visualization of the architecture:
 
-![alt text][image1]
+![Architecture][image1]
 
 #### 3. Creation of the Training Set & Training Process
 
 To capture good driving behavior, I first recorded two laps on track one using center lane driving. Here is an example image of center lane driving:
 
-![alt text][image2]
+![Center Lane Driving][image6]
 
 I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to .... These images show what a recovery looks like starting from ... :
 
-![alt text][image3]
-![alt text][image4]
-![alt text][image5]
+![Center Recovery][image3]
+![Left Recovery][image4]
+![Right Recovery][image5]
 
 
-After the collection process, I had X number of data points. I then preprocessed this data by normalizing and cropping the images to only include the relevant (road) area. 
+After the collection process, I had 13773 data points. I then preprocessed this data by normalizing and cropping the images to only include the relevant (road) area. 
 
 I finally randomly shuffled the data set and put 20% of the data into a validation set. 
 
