@@ -16,7 +16,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/architecture.jpg "Model Visualization"
+[image1]: ./examples/architecture.JPG "Model Visualization"
 [image2]: ./examples/placeholder.png "Grayscaling"
 [image3]: ./examples/center_recovery.jpg "Center Recovery Image"
 [image4]: ./examples/left_recovery.jpg "Left Recovery Image"
@@ -92,7 +92,7 @@ To capture good driving behavior, I first recorded two laps on track one using c
 
 ![Center Lane Driving][image6]
 
-I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to .... These images show what a recovery looks like starting from ... :
+I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to return to the center of the lane if it drifted towards the edge. These images show what a recovery looks like starting from center, left, then right:
 
 ![Center Recovery][image3]
 ![Left Recovery][image4]
